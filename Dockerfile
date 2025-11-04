@@ -8,6 +8,9 @@ WORKDIR /app
 # Copy toàn bộ mã nguồn vào
 COPY . .
 
+# THÊM DÒNG NÀY: Cấp quyền thực thi cho mvnw
+RUN chmod +x ./mvnw
+
 # Build dự án và bỏ qua test để build nhanh hơn
 # (Chúng ta dùng mvnw vì nó đi kèm dự án Spring Boot)
 RUN ./mvnw clean install -DskipTests
