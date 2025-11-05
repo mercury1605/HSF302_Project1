@@ -46,3 +46,13 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
     *   `templates`: Chứa các file template (HTML).
     *   `application.properties`: File cấu hình chính của Spring Boot.
 *   `pom.xml`: File cấu hình của Maven, định nghĩa các dependency và cách build dự án.
+
+
+## 🧾 Tài khoản test
+| Role | username     | Password                       |
+| :-------- | :------- | :-------------------------------- |
+| `Manager`      |manager1 |manager1 |
+| `Manager`      | manager2 |manager2 |
+| `Staff`      | staff1 |staff2 |
+| `Guest`      | guest |guest |
+
