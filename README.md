@@ -12,7 +12,6 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
 *   **Java** ☕
 *   **Spring Boot** 🌱 - Framework chính để xây dựng ứng dụng.
 *   **Spring Data JPA** 🗃️ - Để tương tác với cơ sở dữ liệu.
-*   **H2 Database** 💾 - Cơ sở dữ liệu trong bộ nhớ.
 *   **Thymeleaf** 🍃 - Template engine để tạo các trang HTML.
 *   **Maven** 📦 - Công cụ quản lý dependency và build dự án.
 
