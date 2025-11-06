@@ -58,7 +58,7 @@ spring.datasource.password=123
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
 ```
 
-Thay `your_database` bằng tên cơ sở dữ liệu của bạn.
+Thay `your_database` bằng tên cơ sở dữ liệu của bạn (mặc định là `HSF302`).
 
 ## 🧾 Tài khoản test
 | Role | username     | Password                       |
