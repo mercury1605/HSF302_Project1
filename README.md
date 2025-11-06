@@ -23,7 +23,16 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
     cd HSF302_Project1
     ```
 
-2.  **Build và chạy ứng dụng bằng Maven:**
+2.  **Chuyển sang nhánh `feature/sql-server-config`:**
+    ```bash
+    git checkout feature/sql-server-config
+    ```
+
+3.  **Cấu hình cơ sở dữ liệu SQL Server:**
+    *   Mở file `src/main/resources/application.properties`.
+    *   Cập nhật các thông số kết nối cơ sở dữ liệu (URL, username, password) cho phù hợp với môi trường SQL Server của bạn.
+
+4.  **Build và chạy ứng dụng bằng Maven:**
     ```bash
     ./mvnw spring-boot:run
     ```
