@@ -23,7 +23,16 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
     cd HSF302_Project1
     ```
 
-2.  **Build và chạy ứng dụng bằng Maven:**
+2.  **Chuyển sang nhánh `feature/sql-server-config`:**
+    ```bash
+    git checkout feature/sql-server-config
+    ```
+
+3.  **Cấu hình cơ sở dữ liệu SQL Server:**
+    *   Mở file `src/main/resources/application.properties`.
+    *   Cập nhật các thông số kết nối cơ sở dữ liệu (URL, username, password) cho phù hợp với môi trường SQL Server của bạn.
+
+4.  **Build và chạy ứng dụng bằng Maven:**
     ```bash
     ./mvnw spring-boot:run
     ```
@@ -46,19 +55,6 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
     *   `application.properties`: File cấu hình chính của Spring Boot.
 *   `pom.xml`: File cấu hình của Maven, định nghĩa các dependency và cách build dự án.
 
-
-## ⚙️ Cấu hình cơ sở dữ liệu
-
-Dự án này sử dụng SQL Server làm cơ sở dữ liệu. Bạn cần cập nhật các thông tin sau trong file `src/main/resources/application.properties`:
-
-```properties
-spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=your_database;encrypt=true;trustServerCertificate=true
-spring.datasource.username=sa
-spring.datasource.password=123
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
-```
-
-Thay `your_database` bằng tên cơ sở dữ liệu của bạn (mặc định là `HSF302`).
 
 ## 🧾 Tài khoản test
 | Role | username     | Password                       |
