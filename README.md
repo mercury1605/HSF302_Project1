@@ -47,6 +47,19 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
 *   `pom.xml`: File cấu hình của Maven, định nghĩa các dependency và cách build dự án.
 
 
+## ⚙️ Cấu hình cơ sở dữ liệu
+
+Dự án này sử dụng SQL Server làm cơ sở dữ liệu. Bạn cần cập nhật các thông tin sau trong file `src/main/resources/application.properties`:
+
+```properties
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=your_database;encrypt=true;trustServerCertificate=true
+spring.datasource.username=sa
+spring.datasource.password=123
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+```
+
+Thay `your_database` bằng tên cơ sở dữ liệu của bạn.
+
 ## 🧾 Tài khoản test
 | Role | username     | Password                       |
 | :-------- | :------- | :-------------------------------- |
