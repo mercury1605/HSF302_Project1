@@ -1,0 +1,16 @@
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\config\AuthInterceptor.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\config\DataInitializer.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\config\WebConfig.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\controller\AuthController.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\controller\DepartmentController.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\controller\StudentController.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\entity\Department.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\entity\Student.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\entity\UserAccount.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\Hsf3021Application.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\repository\DepartmentRepository.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\repository\StudentRepository.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\repository\UserAccountRepository.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\service\DepartmentService.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\service\StudentService.java
+E:\HSF302_Project1\src\main\java\nguyen\example\hsf302_1\service\UserAccountService.java
