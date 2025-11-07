@@ -61,6 +61,7 @@ Dự án đã được triển khai trên Render và có thể truy cập trực
 | :-------- | :------- | :-------------------------------- |
 | `Manager`      |manager1 |manager1 |
 | `Manager`      | manager2 |manager2 |
-| `Staff`      | staff1 |staff2 |
+| `Staff`      | staff1 |staff1 |
+| `Staff`      | staff2 |staff2 |
 | `Guest`      | guest |guest |
 
